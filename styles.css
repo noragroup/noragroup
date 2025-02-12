@@ -148,6 +148,16 @@ h2 {
     text-align: center;
 }
 
+.contact .socials a{
+    cursor: pointer;
+}
+
+.contact .socials button{
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 10px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -227,6 +237,9 @@ footer {
     header{
         background-size: 1000px;
     }
+    .hero h2, .about h2, .projects-grid h2{
+        font-size: 3em;
+    }
     .member{
         display: none;
     }
@@ -264,6 +277,10 @@ footer {
     .project a:active{
         color: #047b90;
     }
+    .group-projects img{
+        height: 150px;
+        width: auto;
+    }
 }
 
 @media screen and (max-width : 426px){
@@ -282,9 +299,8 @@ footer {
         background: linear-gradient(to bottom, #040a79, #444);
     }
     .project {
-        width: 300px;
+        width: auto;
         color: #fff;
-        border: 1px solid #ddd;
         background-color: #fff;
         padding: 20px;
         background-color: #333;
@@ -302,6 +318,10 @@ footer {
     }
     .project a:active{
         color: #047b90;
+    }
+    .group-projects img{
+        height: 100px;
+        width: auto;
     }
 }
 
@@ -315,9 +335,8 @@ footer {
         height: auto;
     }
     .project {
-        width: 240px;
+        width: auto;
         color: #fff;
-        border: 1px solid #ddd;
         background-color: #fff;
         padding: 20px;
         background-color: #333;
@@ -335,5 +354,9 @@ footer {
     }
     .project a:active{
         color: #047b90;
+    }
+    .group-projects img{
+        height: 80px;
+        width: auto;
     }
 }
