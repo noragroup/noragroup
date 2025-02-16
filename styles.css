@@ -150,12 +150,11 @@ h2 {
 
 .contact .socials a{
     cursor: pointer;
+    margin: 10px;
 }
 
-.contact .socials button{
-    border-radius: 100%;
-    cursor: pointer;
-    padding: 10px;
+.contact .socials a img:hover{
+    filter: opacity(0.4) drop-shadow(0 0 0 white)
 }
 
 footer {
